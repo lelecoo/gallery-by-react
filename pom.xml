@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sunyard</groupId>
+  <artifactId>maven</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>maven Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>maven</finalName>
+    <plugins>
+      <!--maven是个项目管理工具，如果我们不告诉它我们的代码要使用什么样的jdk版本编译的话，
+      它就会用maven-compiler-plugin默认的jdk版本来进行处理，这样就容易出现版本不匹配的问题,
+      如下是指定maven插件的java编译版本-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source><!-- 源代码使用的开发版本 -->
+          <target>1.8</target><!-- 需要生成的目标class文件的编译版本 -->
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
