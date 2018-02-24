@@ -810,7 +810,7 @@
       <workItem from="1519265168110" duration="1501000" />
       <workItem from="1519369504890" duration="3752000" />
       <workItem from="1519373383444" duration="1023000" />
-      <workItem from="1519432942436" duration="2283000" />
+      <workItem from="1519432942436" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="Git初试 创建仓库&#10;">
       <created>1519437159667</created>
@@ -823,10 +823,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35027000" />
+    <option name="totallyTimeSpent" value="35624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
